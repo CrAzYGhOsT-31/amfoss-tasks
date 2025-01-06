@@ -1,0 +1,105 @@
+body {
+  text-align: center;
+  background-color: #ffc06fec;
+}
+
+h1 {
+  font-size: 5rem;
+  font-family:"Rubik Glitch",serif;
+  color: #5bdeff;
+  text-shadow: 3px 0 #DA0463;
+
+}
+
+.w:hover{
+  color: #5bdeff;
+  background-color: rgb(255, 137, 59);
+
+}
+.a:hover {
+  color: #5bdeff;
+  background-color: rgb(255, 137, 59);
+}
+
+.s:hover {
+  color: #5bdeff;
+  background-color: rgb(255, 137, 59);
+}
+
+.d:hover {
+  color: #5bdeff;
+  background-color: rgb(255, 137, 59);
+}
+
+.j:hover {
+  color: #5bdeff;
+  background-color: rgb(255, 137, 59);
+}
+
+.k:hover {
+  color: #5bdeff;
+  background-color: rgb(255, 137, 59);
+}
+
+.l:hover {
+  color: #5bdeff;
+  background-color: rgb(255, 137, 59);
+}
+
+.set {
+  margin: 10% auto;
+}
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+.pressed {
+  box-shadow: 0 3px 4px 0 #DBEDF3;
+  opacity: 0.5;
+}
+
+.red {
+  color: red;
+}
+
+.drum {
+  outline: outset;
+  border: 10px solid #404B69;
+  font-size: 5rem;
+  line-height: 2;
+  font-weight: 900;
+  font-family: 'Joti One',serif;
+  color: rgb(255, 137, 59);
+  text-shadow: 5px 0 #6ebecc;
+  border-radius: 30px;
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+  text-align: center;
+  margin: 10px;
+  background-color: #5bdeff;
+  overflow: hidden;
+  cursor: pointer;
+  transition-duration: 0.4s;
+}
+.drum:after{
+  content: "";
+  background: #ffc06fec;
+  display: block;
+  position: absolute;
+  padding-top: 300%;
+  padding-left: 350%;
+  margin-left: -20px !important;
+  margin-top: -120%;
+  opacity: 0;
+  transition: all 0.8s
+}
+.drum:active:after{
+  padding: 0;
+  margin:  0;
+  opacity: 1;
+  transition: 0s
+}
+
