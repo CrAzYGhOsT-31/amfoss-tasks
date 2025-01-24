@@ -1,0 +1,50 @@
+body {  
+    font-family: Arial, sans-serif;  
+    margin: 20px;  
+    padding: 20px;  
+    background-color: #f9f9f9;  
+    border-radius: 8px;  
+    max-width: 300px; 
+    background-image: url(bg.png);
+    background-repeat: no-repeat; 
+    background-size: cover;
+}  
+
+form {  
+    display: flex;  
+    justify-content: center;  
+    margin-bottom: 20px;  
+}  
+input[type="search"] {  
+    padding: 10px;  
+    border: 1px solid #ccc;  
+    border-radius: 25px;   
+    width: 70%;   
+    margin-right: 10px;  
+    font-size: 1em;  
+}  
+
+button {  
+    padding: 10px 15px;   
+    border: none;   
+    border-radius: 25px;   
+    background-color: #007BFF;  
+    color: white;  
+    font-size: 1em;   
+    cursor: pointer;     
+}  
+ 
+button:hover {  
+    background-color: #0056b3;   
+}  
+img {  
+    display: block;   
+    margin: 5px auto;   
+    max-width: 100%;   
+    height: auto;   
+}  p {  
+    font-size: 2.4em;   
+    text-align: center;   
+    margin: 10px 0;   
+    color: #ffffff;   
+}
