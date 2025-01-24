@@ -1,0 +1,7 @@
+cargo:rerun-if-changed=/home/peace/ruskos-problem-repo/Cargo.toml
+cargo:rustc-link-search=native=/home/peace/ruskos-problem-repo/target/bootimage/bootloader/x86_64-bootloader/release/build/bootloader-7ff7e5493bfa8617/out
+cargo:rustc-link-lib=static=kernel_bin-rusk_os
+cargo:rerun-if-env-changed=KERNEL
+cargo:rerun-if-env-changed=KERNEL_MANIFEST
+cargo:rerun-if-changed=/home/peace/ruskos-problem-repo/target/x86_64-rusk/debug/rusk_os
+cargo:rerun-if-changed=build.rs
