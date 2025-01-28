@@ -18,3 +18,8 @@ git commit -m - to commit a file in git repo
 
 git push - to push the work in git repo
 
+git log - to check previous commits
+
+git status - to check status of the repo
+
+cp - to move files,etc
