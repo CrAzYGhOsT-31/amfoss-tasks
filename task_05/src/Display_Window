@@ -1,0 +1,31 @@
+from PySide6.QtGui import QPixmap
+from PySide6.QtWidgets import QWidget, QLabel, QLineEdit, QPushButton, QMessageBox
+from search_window import SearchWindow
+import requests
+
+class displaywindow(QWidget):
+    def __init__(self):
+        super().__init__()
+
+        self.w = None        
+        self.setFixedSize(850, 500)
+
+        b=SearchWindow()
+        next_button = QPushButton("NEXT",self)
+        next_button.setGeometry(50, 300, 160, 43)
+        next_button.clicked.connect(self.disp())
+
+        def disp(self):
+            for i in b.captured_pokemons:
+                    print(i)
+
+
+
+if __name__ == "__main__":
+    import sys
+    from PySide6.QtWidgets import QApplication
+
+    app = QApplication(sys.argv)
+    window = displaywindow()
+    window.show()
+    sys.exit(app.exec())                 
